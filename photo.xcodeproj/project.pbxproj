@@ -16,6 +16,7 @@
 		1834BFE61C34C9FF00607053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1834BFE41C34C9FF00607053 /* LaunchScreen.storyboard */; };
 		1834BFF11C34CA0000607053 /* photoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834BFF01C34CA0000607053 /* photoTests.m */; };
 		1834BFFC1C34CA0000607053 /* photoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834BFFB1C34CA0000607053 /* photoUITests.m */; };
+		1834C00B1C34CE9600607053 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834C00A1C34CE9600607053 /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1834BFF71C34CA0000607053 /* photoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1834BFFB1C34CA0000607053 /* photoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoUITests.m; sourceTree = "<group>"; };
 		1834BFFD1C34CA0000607053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1834C0091C34CE9600607053 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		1834C00A1C34CE9600607053 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		1834BFD21C34C9FF00607053 /* photo */ = {
 			isa = PBXGroup;
 			children = (
+				1834C0091C34CE9600607053 /* Utils.h */,
+				1834C00A1C34CE9600607053 /* Utils.m */,
 				1834BFD61C34C9FF00607053 /* AppDelegate.h */,
 				1834BFD71C34C9FF00607053 /* AppDelegate.m */,
 				1834BFD91C34C9FF00607053 /* ViewController.h */,
@@ -276,6 +281,7 @@
 				1834BFE11C34C9FF00607053 /* photo.xcdatamodeld in Sources */,
 				1834BFDB1C34C9FF00607053 /* ViewController.m in Sources */,
 				1834BFD81C34C9FF00607053 /* AppDelegate.m in Sources */,
+				1834C00B1C34CE9600607053 /* Utils.m in Sources */,
 				1834BFD51C34C9FF00607053 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
